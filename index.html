@@ -5,9 +5,7 @@
     <title>🎱 행운의 로또</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles.css" />
-    <title>Document</title>
   </head>
-
   <body>
     <div class="app">
       <div class="outside-modal invisible">
@@ -59,17 +57,17 @@
             <ul class="ul-lotto-tickets"></ul>
           </section>
           <section class="section-submit-lotto-numbers invisible">
-            <form action="">
+            <form class="form-winning-numbers">
               <p class="text-info-input-numbers">
                 지난 주 당첨번호 6개와 보너스 번호 1개를 입력해주세요.
               </p>
               <div class="wrapper-input-lotto-numbers">
                 <div class="wrapper-winning-numbers">
-                  <p for="" class="text-info-input-numbers">당첨 번호</p>
+                  <p class="text-info-input-numbers">당첨 번호</p>
                   <div class="wrapper-input-winning-numbers"></div>
                 </div>
                 <div class="wrapper-bonus-number">
-                  <p for="" class="text-info-input-numbers">보너스 번호</p>
+                  <p class="text-info-input-numbers">보너스 번호</p>
                   <input type="text" class="input-bonus-number" />
                 </div>
               </div>
@@ -77,7 +75,7 @@
                 <p class="text-lotto-numbers-error text-input-error"></p>
               </div>
               <div class="wrapper-submit-lotto">
-                <button type="button" class="btn-submit-lotto">결과 확인하기</button>
+                <button type="submit" class="btn-submit-lotto">결과 확인하기</button>
               </div>
             </form>
           </section>
@@ -88,6 +86,5 @@
       </footer>
     </div>
     <script type="module" src="./src/js/index.js"></script>
-    <script type="module" src="./src/controller/LottoController.js"></script>
   </body>
 </html>
